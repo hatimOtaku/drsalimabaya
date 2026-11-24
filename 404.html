@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page introuvable | Dr Salima Baya</title>
+<!-- Styles are inline because GitHub Pages can serve this page from any folder depth -->
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:1rem;background:#f6f0ed;color:#15151a;font-family:"Segoe UI",system-ui,sans-serif;text-align:center}
+main{background:#fff;border-radius:24px;padding:3rem 2rem;max-width:460px}
+h1{font-size:1.7rem;margin:0 0 .6rem}
+p{color:#706763;margin:0 0 1.5rem}
+a{display:inline-block;background:#132042;color:#fff;text-decoration:none;border-radius:999px;padding:.85rem 1.7rem;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+  <h1>Page introuvable</h1>
+  <p>Cette page n'existe pas ou a été déplacée.<br><span lang="ar" dir="rtl">الصفحة غير موجودة.</span></p>
+  <a id="home" href="/">Retour à l'accueil · الرئيسية</a>
+</main>
+<script>
+/* On username.github.io/repository/ the site lives in a subfolder; on a custom domain it is at the root */
+if (/\.github\.io$/.test(location.hostname)) {
+  var repo = location.pathname.split("/")[1];
+  if (repo) document.getElementById("home").href = "/" + repo + "/";
+}
+</script>
+</body>
+</html>
