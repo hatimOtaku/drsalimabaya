@@ -9,7 +9,8 @@ Replace any file below with better/original media at any time (same name).
 | `services/<slug>.jpg` | Source photos for the card crops | Her Instagram posts |
 | `work/<slug>-1.jpg` ... `<slug>-8.jpg` | Results slider and service gallery (list files in `WORK` in `js/data.js`) | Her Instagram posts |
 | `cards/<slug>.jpg` | Home tiles and service page headers | Cropped from `services/` and `work/` |
-| `doctor-cutout.webp` | Home hero | `doctor.jpg` with background removed and red lighting corrected |
+| `monogram.png` | Home hero | White "SB" letters taken from `logo.jpg` |
+| `doctor-cutout.webp` | Not used | `doctor.jpg` with background removed and red lighting corrected |
 | `doctor-soft.jpg` | Portrait in About | `doctor.jpg` with red lighting corrected |
 
 Slugs: `levres`, `nez`, `seins`, `blepharoplastie`, `peri-orbitaire`, `laser-cicatrices`, `botox`, `self-care`.
