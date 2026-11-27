@@ -5,7 +5,7 @@
     var a = document.createElement("a");
     a.className = "tile rv tile-" + s.slug;
     a.href = "service.html?s=" + s.slug;
-    a.innerHTML = '<img src="assets/cards/' + s.slug + '.jpg" alt="" loading="lazy">' +
+    a.innerHTML = '<img src="assets/cards/' + s.slug + '.jpg?v=9" alt="" loading="lazy">' +
       '<h3 data-svc="' + s.slug + '"></h3><p data-tag="' + s.slug + '"></p>' +
       '<span class="more"><span data-i18n="svc.more"></span><i aria-hidden="true">↗</i></span>';
     grid.appendChild(a);

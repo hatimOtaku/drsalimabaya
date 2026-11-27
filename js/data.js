@@ -99,7 +99,7 @@ window.SERVICES = [
 /* Before/after photos shown on the home page. Only publish photos with written patient consent. */
 window.WORK = {
   "levres": ["assets/work/levres-3.jpg", "assets/work/levres-2.jpg", "assets/work/levres-1-crop.jpg"],
-  "nez": ["assets/work/nez-1.jpg"],
+  "nez": ["assets/work/nez-1-crop.jpg"],
   "blepharoplastie": ["assets/work/blepharoplastie-1.jpg", "assets/work/blepharoplastie-2.jpg"],
   "peri-orbitaire": ["assets/work/peri-orbitaire-1.jpg"],
   "self-care": ["assets/work/self-care-1.jpg", "assets/work/self-care-2.jpg"]
@@ -107,7 +107,7 @@ window.WORK = {
 
 window.I18N = {
   fr: {
-    "pick.eyebrow": "Choisissez une rubrique",
+    "res.eyebrow": "Réalisations", "pick.eyebrow": "Choisissez une rubrique",
     "nav.results": "Résultats",
     "nav.steps": "Parcours",
     "nav.faq": "FAQ",
@@ -170,7 +170,7 @@ window.I18N = {
     "wa.default": "Bonjour Dr Baya, je souhaite prendre rendez-vous pour une consultation."
   },
   ar: {
-    "pick.eyebrow": "اختاري قسماً",
+    "res.eyebrow": "من أعمالنا", "pick.eyebrow": "اختاري قسماً",
     "nav.results": "النتائج",
     "nav.steps": "المسار",
     "nav.faq": "الأسئلة",
